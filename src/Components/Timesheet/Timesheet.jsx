@@ -5,9 +5,7 @@ import { HiOutlineMail, HiOutlineUser, HiOutlineKey } from "react-icons/hi";
 function Timesheet() {
   return (
     <form>
-      <div className=" form-container">
-        <input type="text" className="Name"></input>
-      </div>
+      <h1>hello world</h1>
     </form>
   );
 }

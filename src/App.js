@@ -1,12 +1,13 @@
 import "./App.css";
-import Dashboard from "./Components/Dashboard/Dashboard";
-import Timesheet from "./Components/Timesheet/Timesheet";
+import DashBoard from "./Components/DashBoard/DashBoard";
+import TimeSheet from "./Components/TimeSheet/TimeSheet";
 
 function App() {
   return (
-    <div>
-      <Timesheet />
-    </div>
+    <>
+      <TimeSheet />
+      <DashBoard />
+    </>
   );
 }
 
